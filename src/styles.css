@@ -32,6 +32,12 @@ h2 {
     transition: 300ms all ease-in-out;
 }
 
+@media (max-width: 768px) {
+    .logoContainer img {
+        width: 40%;
+    }
+}
+
 .logoContainer img:hover {
     width: 16%;
 }
